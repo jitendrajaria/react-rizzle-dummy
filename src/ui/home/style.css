@@ -1,0 +1,16 @@
+.carousel-root {
+  height: 100%;
+}
+.carousel {
+  height: 100%;
+  background: white;
+}
+video{
+  max-width: 45%;
+  height: auto;
+  min-width: 350px;
+}
+
+.carousel .slide {
+  background-color: white;
+}
