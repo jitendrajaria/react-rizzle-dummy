@@ -1,0 +1,77 @@
+.mobile-image-container {
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+}
+
+.mobile-image-container>img {
+  width: 350px;
+}
+
+.video-container {
+  position: absolute;
+  bottom: 13px;
+  right: 30px;
+  padding: 0px 10px;
+  width: 330px;
+  height: 716px;
+  overflow: hidden;
+  /* overflow-x: scroll; */
+  cursor: move;
+  /* fallback if grab cursor is unsupported */
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+  /* border: 1px solid red; */
+}
+
+.video-container:active {
+  cursor: grabbing;
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
+}
+
+.slides {
+  height: 100%;
+  /* display: flex;
+  width: 660px; */
+}
+
+.slide-item {
+  height: 100%;
+  /* width: 50%; */
+}
+
+.video-container video {
+  object-fit: fill;
+  width: 100%;
+  height: 100%;
+  border-bottom-left-radius: 31px;
+  border-bottom-right-radius: 31px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  display: block;
+}
+
+.user-container {
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  position: absolute;
+  bottom: 13px;
+  right: 30px;
+  padding: 0px 10px;
+  width: 330px;
+  height: 716px;
+  overflow: hidden;
+  /* overflow-x: scroll; */
+  cursor: move;
+  /* fallback if grab cursor is unsupported */
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+  border-bottom-left-radius: 31px;
+  border-bottom-right-radius: 31px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
